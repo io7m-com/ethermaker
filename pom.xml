@@ -26,7 +26,7 @@
   </modules>
 
   <properties>
-    <com.codacy.id></com.codacy.id>
+    <com.codacy.id>428aa11eca074be49b530dbccdb3dd8e</com.codacy.id>
     <com.io7m.xstructural.version>0.0.1</com.io7m.xstructural.version>
     <io7m.api.previousVersion>0.0.1-SNAPSHOT</io7m.api.previousVersion>
     <junit.version>5.7.0-M1</junit.version>
