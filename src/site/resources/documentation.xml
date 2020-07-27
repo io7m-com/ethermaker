@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <h3>User documentation</h3>
+  <pre><![CDATA[
+Usage: ethermaker [options] [command] [command options]
+
+  Options:
+    --verbose
+      Set the minimum logging verbosity level.
+      Default: info
+      Possible Values: [trace, debug, info, warn, error]
+
+  Use the "help" command to examine specific commands:
+
+    $ ethermaker help help.
+
+  Command-line arguments can be placed one per line into a file, and the file
+  can be referenced using the @ symbol:
+
+    $ echo help > file.txt
+    $ echo help >> file.txt
+    $ ethermaker @file.txt
+
+  Commands:
+    describe     Describe MAC addresses
+    generate     Generate MAC addresses
+    help         Show detailed help messages for commands.
+    version      Show the application version.
+
+  Documentation:
+    https://www.io7m.com/software/ethermaker/
+]]></pre>
+
+  <p>
+    To generate a set of ten random unicast MAC addresses:
+  </p>
+
+  <pre><![CDATA[$ ethermaker generate --count 10
+68:cb:e4:d4:2d:94
+22:c5:8c:99:22:15
+8a:2c:2b:cd:71:98
+5e:6e:8b:da:a3:00
+dc:ab:be:0b:5f:14
+d0:24:40:33:53:db
+0a:2f:4e:20:eb:11
+8c:95:69:ac:42:d2
+32:9c:da:f3:a6:c8
+f4:de:7f:4d:4e:5b
+]]></pre>
+
+  <p>
+    To generate a set of ten random MAC addresses under the organization <tt>C419D1</tt>:
+  </p>
+
+  <pre><![CDATA[$ ethermaker generate --count 10 --organization C419D1
+c4:19:d1:39:d9:e3
+c4:19:d1:f7:80:95
+c4:19:d1:f8:d0:73
+c4:19:d1:ef:b6:16
+c4:19:d1:1e:60:db
+c4:19:d1:25:91:23
+c4:19:d1:7f:59:d1
+c4:19:d1:60:30:0d
+c4:19:d1:3e:78:eb
+c4:19:d1:a5:f1:cb
+]]></pre>
+
+  <p>
+    To describe a set of MAC addresses:
+  </p>
+
+  <pre><![CDATA[$ ethermaker generate --count 10 --organization C419D1 | ethermaker describe
+Address: c4:19:d1:83:97:9b, Multicast: false, Broadcast: false, Local: false
+Address: c4:19:d1:8f:84:77, Multicast: false, Broadcast: false, Local: false
+Address: c4:19:d1:50:af:bb, Multicast: false, Broadcast: false, Local: false
+Address: c4:19:d1:4a:f2:1e, Multicast: false, Broadcast: false, Local: false
+Address: c4:19:d1:97:30:58, Multicast: false, Broadcast: false, Local: false
+Address: c4:19:d1:d9:d7:a3, Multicast: false, Broadcast: false, Local: false
+Address: c4:19:d1:53:d2:98, Multicast: false, Broadcast: false, Local: false
+Address: c4:19:d1:ee:f3:d2, Multicast: false, Broadcast: false, Local: false
+Address: c4:19:d1:43:c0:41, Multicast: false, Broadcast: false, Local: false
+Address: c4:19:d1:e3:53:89, Multicast: false, Broadcast: false, Local: false
+]]></pre>
+
+</div>

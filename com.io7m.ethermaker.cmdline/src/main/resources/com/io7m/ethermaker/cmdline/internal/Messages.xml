@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+
+  <entry key="helpGenerate"><![CDATA[
+The "generate" command generates one or more MAC addresses adhering to the
+given constraints. The command's default option values are such that executing
+the command without any options will generate a random unicast address.
+
+See: https://en.wikipedia.org/wiki/MAC_address
+See: https://regauth.standards.ieee.org/standards-ra-web/pub/view.html#registries
+]]></entry>
+
+  <entry key="helpDescribe"><![CDATA[
+The "describe" command reads one or more MAC addresses from the standard input
+and prints information about them such as whether they are unicast addresses,
+locally administered, etc.
+]]></entry>
+
+</properties>
