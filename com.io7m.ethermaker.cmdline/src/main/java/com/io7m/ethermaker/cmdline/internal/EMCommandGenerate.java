@@ -41,6 +41,13 @@ public final class EMCommandGenerate extends CLPAbstractCommand
 
   @Parameter(
     required = false,
+    names = "--local",
+    arity = 1,
+    description = "Make the address(es) locally administered")
+  private boolean forceLocal;
+
+  @Parameter(
+    required = false,
     names = "--unicast",
     arity = 1,
     description = "Make the address(es) a unicast address")
@@ -108,6 +115,9 @@ public final class EMCommandGenerate extends CLPAbstractCommand
       }
       if (this.forceUnicast) {
         address = MACAddresses.asUnicast(address);
+      }
+      if (this.forceLocal) {
+        address = MACAddresses.asLocallyAdministered(address);
       }
       numbers.add(address);
     }
