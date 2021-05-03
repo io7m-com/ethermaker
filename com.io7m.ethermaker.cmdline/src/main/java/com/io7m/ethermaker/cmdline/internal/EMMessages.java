@@ -18,6 +18,10 @@ package com.io7m.ethermaker.cmdline.internal;
 
 import java.util.ResourceBundle;
 
+/**
+ * String resources.
+ */
+
 public final class EMMessages extends EMAbstractStrings
 {
   private EMMessages(
@@ -25,6 +29,12 @@ public final class EMMessages extends EMAbstractStrings
   {
     super(inResources);
   }
+
+  /**
+   * Create string resources.
+   *
+   * @return The string resources
+   */
 
   public static EMMessages create()
   {
