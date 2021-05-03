@@ -36,7 +36,7 @@
   <licenses>
     <license>
       <name>ISC License</name>
-      <url>http://io7m.com/license/isc.txt</url>
+      <url>https://io7m.com/license/isc.txt</url>
     </license>
   </licenses>
 
@@ -51,12 +51,12 @@
       <id>io7m</id>
       <name>io7m</name>
       <email>code@io7m.com</email>
-      <url>http://io7m.com</url>
+      <url>https://io7m.com</url>
     </developer>
   </developers>
 
   <issueManagement>
-    <url>http://github.com/io7m/ethermaker/issues</url>
+    <url>https://github.com/io7m/ethermaker/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -73,8 +73,8 @@
   </distributionManagement>
 
   <ciManagement>
-    <system>Travis CI</system>
-    <url>https://travis-ci.org/io7m/ethermaker</url>
+    <system>GitHub Actions</system>
+    <url>https://github.com/ethermaker/actions</url>
   </ciManagement>
 
   <dependencyManagement>
