@@ -7,7 +7,7 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>7.4.0</version>
+    <version>7.5.0</version>
   </parent>
 
   <groupId>com.io7m.ethermaker</groupId>
@@ -152,12 +152,12 @@
       <dependency>
         <groupId>com.io7m.primogenitor</groupId>
         <artifactId>com.io7m.primogenitor.support</artifactId>
-        <version>7.4.0</version>
+        <version>7.5.0</version>
       </dependency>
       <dependency>
         <groupId>com.io7m.xstructural</groupId>
         <artifactId>com.io7m.xstructural.cmdline</artifactId>
-        <version>1.7.1</version>
+        <version>1.7.2</version>
       </dependency>
       <dependency>
         <groupId>com.io7m.claypot</groupId>
