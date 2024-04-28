@@ -1,15 +1,15 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <p class="shields">
-    <a href="https://github.com/io7m/ethermaker/actions?query=workflow%3Amain.linux.temurin.lts">
-      <img src="https://img.shields.io/github/actions/workflow/status/io7m/ethermaker/main.linux.temurin.lts.yml"
+    <a href="https://www.github.com/io7m-com/ethermaker/actions?query=workflow%3Amain.linux.temurin.lts">
+      <img src="https://img.shields.io/github/actions/workflow/status/io7m-com/ethermaker/main.linux.temurin.lts.yml"
            alt="Build status"/>
     </a>
     <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.ethermaker%22">
       <img src="https://img.shields.io/maven-central/v/com.io7m.ethermaker/com.io7m.ethermaker.svg?style=flat-square"
            alt="Maven Central"/>
     </a>
-    <a href="https://codecov.io/gh/io7m/ethermaker">
-      <img src="https://img.shields.io/codecov/c/github/io7m/ethermaker.svg?style=flat-square"
+    <a href="https://codecov.io/gh/io7m-com/ethermaker">
+      <img src="https://img.shields.io/codecov/c/github/io7m-com/ethermaker.svg?style=flat-square"
            alt="Codecov"/>
     </a>
   </p>

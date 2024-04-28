@@ -17,7 +17,7 @@
 
   <description>Ethernet MAC address generator</description>
   <name>com.io7m.ethermaker</name>
-  <url>https://www.github.com/io7m/ethermaker</url>
+  <url>https://www.io7m.com/software/ethermaker</url>
 
   <modules>
     <module>com.io7m.ethermaker.core</module>
@@ -26,9 +26,14 @@
   </modules>
 
   <properties>
-    <com.io7m.xstructural.version>0.0.1</com.io7m.xstructural.version>
+    <!-- Configuration. -->
     <io7m.api.previousVersion>0.0.1-SNAPSHOT</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
+
+    <!-- io7m dependencies. -->
+    <com.io7m.xstructural.version>0.0.1</com.io7m.xstructural.version>
+
+    <!-- Third-party dependencies. -->
     <junit.version>5.10.2</junit.version>
     <org.immutables.version>2.10.1</org.immutables.version>
   </properties>
@@ -36,14 +41,14 @@
   <licenses>
     <license>
       <name>ISC</name>
-      <url>https://io7m.com/license/isc.txt</url>
+      <url>https://www.io7m.com/license/isc.txt</url>
     </license>
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/ethermaker</url>
-    <connection>scm:git:https://github.com/io7m/ethermaker</connection>
-    <developerConnection>scm:git:https://github.com/io7m/ethermaker</developerConnection>
+    <url>https://www.github.com/io7m-com/ethermaker</url>
+    <connection>scm:git:https://www.github.com/io7m-com/ethermaker</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/ethermaker</developerConnection>
   </scm>
 
   <developers>
@@ -51,12 +56,12 @@
       <id>io7m</id>
       <name>io7m</name>
       <email>code@io7m.com</email>
-      <url>https://io7m.com</url>
+      <url>https://www.io7m.com</url>
     </developer>
   </developers>
 
   <issueManagement>
-    <url>https://github.com/io7m/ethermaker/issues</url>
+    <url>https://www.github.com/io7m-com/ethermaker/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -74,7 +79,7 @@
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/ethermaker/actions</url>
+    <url>https://www.github.com/io7m-com/ethermaker/actions</url>
   </ciManagement>
 
   <dependencyManagement>
