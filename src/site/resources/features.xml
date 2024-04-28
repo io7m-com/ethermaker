@@ -4,7 +4,7 @@
   <ul>
     <li>Generates MAC addresses.</li>
     <li>Describes MAC addresses.</li>
-    <li>Written in pure Java 11 for safety and portability.</li>
+    <li>Written in pure Java 21 for safety and portability.</li>
     <li><a href="https://www.osgi.org/">OSGi</a>-ready</li>
     <li><a href="https://en.wikipedia.org/wiki/Java_Platform_Module_System">JPMS</a>-ready</li>
     <li>High coverage automated test suite</li>
