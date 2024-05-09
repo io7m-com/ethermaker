@@ -162,7 +162,7 @@
       <dependency>
         <groupId>com.io7m.xstructural</groupId>
         <artifactId>com.io7m.xstructural.cmdline</artifactId>
-        <version>1.8.0</version>
+        <version>1.8.1</version>
       </dependency>
       <dependency>
         <groupId>com.io7m.claypot</groupId>
