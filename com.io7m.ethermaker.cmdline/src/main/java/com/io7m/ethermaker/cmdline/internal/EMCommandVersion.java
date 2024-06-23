@@ -24,6 +24,10 @@ import java.util.Properties;
 
 import static com.io7m.claypot.core.CLPCommandType.Status.SUCCESS;
 
+/**
+ * The "version" command.
+ */
+
 @Parameters(commandDescription = "Show the application version.")
 public final class EMCommandVersion extends CLPAbstractCommand
 {

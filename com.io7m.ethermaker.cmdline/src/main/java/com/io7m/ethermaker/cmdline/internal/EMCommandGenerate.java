@@ -30,6 +30,10 @@ import java.util.Optional;
 
 import static com.io7m.claypot.core.CLPCommandType.Status.SUCCESS;
 
+/**
+ * The "generate" command.
+ */
+
 @Parameters(commandDescription = "Generate MAC addresses")
 public final class EMCommandGenerate extends CLPAbstractCommand
 {

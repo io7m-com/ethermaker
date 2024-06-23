@@ -9,14 +9,14 @@
   <parent>
     <artifactId>com.io7m.ethermaker</artifactId>
     <groupId>com.io7m.ethermaker</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
   </parent>
 
   <artifactId>com.io7m.ethermaker.core</artifactId>
 
   <description>Ethernet MAC address generator (Core)</description>
   <name>com.io7m.ethermaker.core</name>
-  <url>https://www.github.com/io7m/ethermaker</url>
+  <url>https://www.io7m.com/software/ethermaker</url>
 
   <dependencies>
     <dependency>
@@ -40,8 +40,8 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.io7m.immutables.style</groupId>
-      <artifactId>com.io7m.immutables.style</artifactId>
+      <groupId>com.io7m.immutables-style</groupId>
+      <artifactId>com.io7m.immutables-style</artifactId>
       <scope>provided</scope>
     </dependency>
   </dependencies>

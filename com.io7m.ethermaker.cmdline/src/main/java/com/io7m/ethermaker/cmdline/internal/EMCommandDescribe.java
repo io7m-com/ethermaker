@@ -26,6 +26,10 @@ import java.io.InputStreamReader;
 
 import static com.io7m.claypot.core.CLPCommandType.Status.SUCCESS;
 
+/**
+ * The "describe" command.
+ */
+
 @Parameters(commandDescription = "Describe MAC addresses")
 public final class EMCommandDescribe extends CLPAbstractCommand
 {
