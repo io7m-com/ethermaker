@@ -12,7 +12,7 @@
 
   <groupId>com.io7m.ethermaker</groupId>
   <artifactId>com.io7m.ethermaker</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <description>Ethernet MAC address generator</description>
@@ -27,7 +27,7 @@
 
   <properties>
     <!-- Configuration. -->
-    <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
+    <io7m.api.previousVersion>1.0.1</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
 
     <!-- io7m dependencies. -->

@@ -9,7 +9,7 @@
   <parent>
     <artifactId>com.io7m.ethermaker</artifactId>
     <groupId>com.io7m.ethermaker</groupId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
   </parent>
 
   <artifactId>com.io7m.ethermaker.tests</artifactId>
