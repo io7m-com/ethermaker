@@ -34,7 +34,7 @@
     <com.io7m.xstructural.version>0.0.1</com.io7m.xstructural.version>
 
     <!-- Third-party dependencies. -->
-    <org.junit.version>5.11.2</org.junit.version>
+    <org.junit.version>5.11.3</org.junit.version>
     <org.immutables.version>2.10.1</org.immutables.version>
   </properties>
 
