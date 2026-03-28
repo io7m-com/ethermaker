@@ -33,7 +33,6 @@
     <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
 
     <!-- io7m dependencies. -->
-    <com.io7m.xstructural.version>0.0.1</com.io7m.xstructural.version>
 
     <!-- Third-party dependencies. -->
     <org.junit.version>5.14.2</org.junit.version>
@@ -157,11 +156,6 @@
         <groupId>com.io7m.primogenitor</groupId>
         <artifactId>com.io7m.primogenitor.support</artifactId>
         <version>9.1.0</version>
-      </dependency>
-      <dependency>
-        <groupId>com.io7m.xstructural</groupId>
-        <artifactId>com.io7m.xstructural.cmdline</artifactId>
-        <version>1.9.0</version>
       </dependency>
       <dependency>
         <groupId>com.io7m.claypot</groupId>
