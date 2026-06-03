@@ -35,7 +35,7 @@
     <!-- io7m dependencies. -->
 
     <!-- Third-party dependencies. -->
-    <org.junit.version>5.14.3</org.junit.version>
+    <org.junit.version>5.14.4</org.junit.version>
     <org.immutables.version>2.12.1</org.immutables.version>
   </properties>
 
